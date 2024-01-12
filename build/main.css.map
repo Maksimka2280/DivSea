@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA,GACI,UACA,SACA,gB","sources":["webpack://ua-map/./src/scss/global/global.scss"],"sourcesContent":["ul{\r\n    padding: 0;\r\n    margin: 0;\r\n    list-style: none;\r\n}"],"names":[],"sourceRoot":""}

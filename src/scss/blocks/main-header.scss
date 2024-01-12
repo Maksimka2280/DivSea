@@ -1,0 +1,74 @@
+.main-header__list-container{
+    display: flex;
+    padding-left: 70px;
+    gap: 60px;
+    padding-top: 30px;
+}
+
+.main-header__list{
+    display: flex;
+    gap: 55px;
+    margin-top: 17px;
+}
+
+.main-header__form-container{
+  margin-left: 750px;
+  margin-top: -35px;
+}
+
+.main-header__link{
+    text-decoration: none;
+    color: #606060;
+
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.743px; /* 150% */
+    text-transform: uppercase;
+}
+
+.main-header__input{
+    width: 348px;
+height: 57px;
+background-color: #EDEDED;
+border-radius: 15px;
+border: none;
+margin-top: -150px;
+
+}
+
+::placeholder{
+    color: #C2C3CB;
+
+    font-family: Poppins;
+    font-size: 15.711px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 117.5%; /* 18.461px */
+    letter-spacing: -0.314px;
+    padding-left: 70px;
+}
+
+.main-header__Button{
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16.172px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24.258px; /* 150% */
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.button-black{
+margin-top: -100px;
+padding: 16.172px 24.258px;
+align-items: flex-start;
+gap: 10.108px;
+border-radius: 16.172px;
+background: #141416
+
+
+}

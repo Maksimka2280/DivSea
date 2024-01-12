@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;500&family=Inter&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;500&family=Inter&family=Poppins&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="main-header">
+    <!-- навигация по сайту сылки кароче -->
+        <div class="main-header__list-container">
+            <img src="img/Wave.svg" alt="">
+            <nav class="main-header__navigation">
+                <ul class="main-header__list">
+                    <li class="main-header__item">
+                        <a class="main-header__link" href=""> Discover</a>
+                    </li>
+                    <li lass="main-header__item">
+                        <a class="main-header__link" href="">creators </a>
+                    </li>
+                    <li lass="main-header__item">
+                        <a class="main-header__link" href=""> Sell</a>
+                    </li>
+                    <li lass="main-header__item">
+                        <a class="main-header__link" href="">stats </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+           <!-- поисковая строка -->
+        <div class="main-header__form-container">
+            <form action="/search" method="GET" class="main-header__form">
+                <div class="input-button__container">
+                    <input class="main-header__input" type="text" id="search" name="q"
+                        placeholder="Search Art Work / Creator">
+                    <button class="main-header__Button  button-black"> Connect Wallet</button>
+                </div>
+
+            </form>
+        </div>
+
+
+    </header>
+
+
+    <main class="main-info">
+        <!-- главная страница -->
+        <img class="main-info__img" src="img/Hero Header.svg" alt="">
+        <div class="main-info_text-container">
+            <h1 class="main-info__title">
+                Discover And Create NFTs
+            </h1>
+            <p class="main-info__text">
+                Discover,  Create and Sell NFTs On Our NFT Marketplace With Over Thousands Of NFTs And Get a  
+                <span></span>
+            </p>
+          
+
+            <div class="main-info__button-container">
+                <a class="main-info__link  button-black--2" href="">Explore More</a>
+                <a class="main-info__link--2  button-white" href="">create NFT</a>
+            </div>
+        </div>
+
+        <div class="main-info__work-info">
+            <p class="main-info__text--art-works">
+                430K+
+            </p>
+            <p class="main-info__text--Creators">
+                159K+
+            </p>
+            <p class="main-info__text--Collections">
+                87K+
+            </p>
+        </div>
+    </main>
+
+    <section class="top-nft">
+   <!-- это section где должни быть карточки -->
+        <h2 class="top-nft__title">
+            Weekly - Top NFT
+        </h2>
+        <!-- контейнер для них -->
+        <div class="top-nft__nft-container">
+            <div class="top-nft__Sun-Glass">
+                <div id="timer"></div>
+                <img src="img/sun-glass.png" alt="">
+                <p class="title">
+                    Sun-Glass
+                </p>
+                <p class="current-bild">
+                    Current bid
+                </p>
+
+                <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                <div class="text-img__container">
+                    <img src="img/mdi_ethereum.svg" alt="">
+                    <p class="price">
+                        1.75
+                    </p>
+                </div>
+
+                <div class="top-nft__nft-container">
+                    <div class="top-nft__Sun-Glass">
+                        <div id="timer"></div>
+                        <img src="img/sun-glass--2.png" alt="">
+                        <p class="title">
+                            Sun-Glass
+                        </p>
+                        <p class="current-bild">
+                            Current bid
+                        </p>
+
+                        <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                        <div class="text-img__container">
+                            <img src="img/mdi_ethereum.svg" alt="">
+                            <p class="price">
+                                1.75
+                            </p>
+                        </div>
+
+
+                        <div class="top-nft__nft-container">
+                            <div class="top-nft__Sun-Glass">
+                                <div id="timer"></div>
+                                <img src="img/nuevey.png" alt="">
+                                <p class="title">
+                                    nuevey
+                                </p>
+                                <p class="current-bild">
+                                    Current bid
+                                </p>
+
+                                <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                                <div class="text-img__container">
+                                    <img src="img/mdi_ethereum.svg" alt="">
+                                    <p class="price">
+                                        1.25
+                                    </p>
+                                </div>
+
+
+                                <div class="top-nft__nft-container">
+                                    <div class="top-nft__Sun-Glass">
+                                        <div id="timer"></div>
+                                        <img src="img/nuevea--2.png" alt="">
+                                        <p class="title">
+                                            nuevey
+                                        </p>
+                                        <p class="current-bild">
+                                            Current bid
+                                        </p>
+
+                                        <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                                        <div class="text-img__container">
+                                            <img src="img/mdi_ethereum.svg" alt="">
+                                            <p class="price">
+                                                1.25
+                                            </p>
+                                        </div>
+
+                                        <div class="top-nft__nft-container">
+                                            <div class="top-nft__Sun-Glass">
+                                                <div id="timer"></div>
+                                                <img src="img/sun-galass--3e.png" alt="">
+                                                <p class="title">
+                                                    Sun-Glass
+                                                </p>
+                                                <p class="current-bild">
+                                                    Current bid
+                                                </p>
+
+                                                <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                                                <div class="text-img__container">
+                                                    <img src="img/mdi_ethereum.svg" alt="">
+                                                    <p class="price">
+                                                        1.75
+                                                    </p>
+                                                </div>
+
+                                                <div id="sliderNav">
+
+                                                    <!-- < Кнопка для перемещения влево 
+                                                    <button class="sliderButton" onclick="moveLeft()">&#60;</button>
+                                                   Кнопка для перемещения вправо 
+                                                    <button class="sliderButton" onclick="moveRight()">&#62;</button>
+                                                </div> -->
+                                                    
+
+                                            </div>
+
+
+                                        </div>
+    </section>
+  <!-- информация про колекции -->
+    <img src="img/Recently Viewd.svg" alt="">
+
+    <section class="top-colections">
+        <h3 class="top-colections__title">
+            Top Collection
+        </h3>
+
+        <div class="nft-info__text-container">
+            <p class="nft-info__text--2">
+                Collection
+            </p>
+
+            <p class="nft-info__text">
+                Volume
+            </p>
+
+            <p class="nft-info__text">
+                24h %
+            </p>
+
+            <p class="nft-info__text">
+                Floor Price
+            </p>
+
+
+            <p class="nft-info__text">
+                Owners
+            </p>
+
+
+            <p class="nft-info__text">
+                Items
+            </p>
+
+        </div>
+
+
+        <div class="colection-container">
+            <img src="img/icon.svg" alt="">
+            <p class="colection__text">
+                Alex Ca.
+            </p>
+
+            <p class="colection__text--2">
+                By Alex
+            </p>
+            <div class="numbers">
+                <img src="img/mdi_ethereum.svg" alt="">
+                <p class="numbers__text">
+                    8,456
+                </p>
+                <p class="numbers__text--green">
+                    + 27.78%
+                </p>
+                <img src="img/mdi_ethereum.svg" alt="">
+                <p class="numbers__text">
+                    3,5
+                </p>
+                <p class="numbers__text">
+                    2.2K
+                </p>
+                <p class="numbers__text">
+                    500
+                </p>
+
+
+            </div>
+
+
+            <div class="colection-container">
+                <img src="img/icon2.svg" alt="">
+                <p class="colection__text">
+                    Alex Ca.
+                </p>
+
+                <p class="colection__text--2">
+                    By Alex
+                </p>
+                <div class="numbers">
+                    <img src="img/mdi_ethereum.svg" alt="">
+                    <p class="numbers__text">
+                        4,780
+                    </p>
+                    <p class="numbers__text--green">
+                        + 27.78%
+                    </p>
+                    <img src="img/mdi_ethereum.svg" alt="">
+                    <p class="numbers__text">
+                        7,9
+                    </p>
+                    <p class="numbers__text">
+                        3.4K
+                    </p>
+                    <p class="numbers__text">
+                        900
+                    </p>
+
+
+                </div>
+
+                <div class="colection-container">
+                    <img src="img/icon.svg" alt="">
+                    <p class="colection__text">
+                        Alex Ca.
+                    </p>
+
+                    <p class="colection__text--2">
+                        By Alex
+                    </p>
+                    <div class="numbers">
+                        <img src="img/mdi_ethereum.svg" alt="">
+                        <p class="numbers__text">
+                            8,456
+                        </p>
+                        <p class="numbers__text--green">
+                            + 27.78%
+                        </p>
+                        <img src="img/mdi_ethereum.svg" alt="">
+                        <p class="numbers__text">
+                            3,5
+                        </p>
+                        <p class="numbers__text">
+                            2.2K
+                        </p>
+                        <p class="numbers__text">
+                            500
+                        </p>
+                    </div>
+
+
+                    <div class="colection-container">
+                        <img src="img/icon2.svg" alt="">
+                        <p class="colection__text">
+                            Alex Ca.
+                        </p>
+
+                        <p class="colection__text--2">
+                            By Alex
+                        </p>
+                        <div class="numbers">
+                            <img src="img/mdi_ethereum.svg" alt="">
+                            <p class="numbers__text">
+                                4,780
+                            </p>
+                            <p class="numbers__text--green">
+                                + 27.78%
+                            </p>
+                            <img src="img/mdi_ethereum.svg" alt="">
+                            <p class="numbers__text">
+                                7,9
+                            </p>
+                            <p class="numbers__text">
+                                3.4K
+                            </p>
+                            <p class="numbers__text">
+                                900
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <a class="top-colections__limk" href="">Explore All </a>
+    </section>
+
+
+    <!-- мини магазин нфт  -->
+    <section class="marketplace">
+        <h2 class="marketplace__title">
+            Explore Marketplace
+        </h2>
+        <!-- инфо про них -->
+        <div class="Category">
+            <ul class="marketplace__list">
+                <li class="marketplace__item">
+                    <a class="marketplace__link" href="">All </a>
+                </li>
+                <li class="marketplace__item">
+                    <a class="marketplace__link" href=""><img src="img/List.svg" alt="">Category </a>
+                </li>
+                <li class="marketplace__item">
+                    <a class="marketplace__link" href=""><img src="img/Vector.svg" alt="">Collection </a>
+                </li>
+                <li class="marketplace__item">
+                    <a class="marketplace__link" href=""><img src="img/Vecto2r.svg" alt="">Price</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- сами нфт - карточки -->
+        <div class="nfts-gallery">
+            <div class="top-nft__nft-container">
+                <div class="top-nft__Sun-Glass">
+                    <div id="timer"></div>
+                    <img src="img/nuevey.png" alt="">
+                    <p class="title">
+                        Sun-Glass
+                    </p>
+                    <p class="current-bild">
+                        Current bid
+                    </p>
+
+                    <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                    <div class="text-img__container">
+                        <img src="img/mdi_ethereum.svg" alt="">
+                        <p class="price">
+                            1.75
+                        </p>
+                    </div>
+
+                    <div class="top-nft__nft-container">
+                        <div class="top-nft__Sun-Glass">
+                            <div id="timer"></div>
+                            <img src="img/sun-glass.png" alt="">
+                            <p class="title">
+                                Sun-Glass
+                            </p>
+                            <p class="current-bild">
+                                Current bid
+                            </p>
+
+                            <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                            <div class="text-img__container">
+                                <img src="img/mdi_ethereum.svg" alt="">
+                                <p class="price">
+                                    1.75
+                                </p>
+                            </div>
+
+                            <div class="top-nft__nft-container">
+                                <div class="top-nft__Sun-Glass">
+                                    <div id="timer"></div>
+                                    <img src="img/sun-glass--2.png" alt="">
+                                    <p class="title">
+                                        Sun-Glass
+                                    </p>
+                                    <p class="current-bild">
+                                        Current bid
+                                    </p>
+
+                                    <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                                    <div class="text-img__container">
+                                        <img src="img/mdi_ethereum.svg" alt="">
+                                        <p class="price">
+                                            1.75
+                                        </p>
+                                    </div>
+
+                                    <div class="top-nft__nft-container">
+                                        <div class="top-nft__Sun-Glass">
+                                            <div id="timer"></div>
+                                            <img src="img/sun-glass.png" alt="">
+                                            <p class="title">
+                                                Sun-Glass
+                                            </p>
+                                            <p class="current-bild">
+                                                Current bid
+                                            </p>
+
+                                            <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                                            <div class="text-img__container">
+                                                <img src="img/mdi_ethereum.svg" alt="">
+                                                <p class="price">
+                                                    1.75
+                                                </p>
+                                            </div>
+
+                                            <div class="top-nft__nft-container">
+                                                <div class="top-nft__Sun-Glass">
+                                                    <div id="timer"></div>
+                                                    <img src="img/nuevey.png" alt="">
+                                                    <p class="title">
+                                                        Sun-Glass
+                                                    </p>
+                                                    <p class="current-bild">
+                                                        Current bid
+                                                    </p>
+
+                                                    <a class="top-nft__nft__link button-black--3" href="">PLACE BID</a>
+
+                                                    <div class="text-img__container">
+                                                        <img src="img/mdi_ethereum.svg" alt="">
+                                                        <p class="price">
+                                                            1.75
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="top-nft__nft-container">
+                                                        <div class="top-nft__Sun-Glass">
+                                                            <div id="timer"></div>
+                                                            <img src="img/sun-glass--2.png" alt="">
+                                                            <p class="title">
+                                                                Sun-Glass
+                                                            </p>
+                                                            <p class="current-bild">
+                                                                Current bid
+                                                            </p>
+
+                                                            <a class="top-nft__nft__link button-black--3" href="">PLACE
+                                                                BID</a>
+
+                                                            <div class="text-img__container">
+                                                                <img src="img/mdi_ethereum.svg" alt="">
+                                                                <p class="price">
+                                                                    1.75
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="top-nft__nft-container">
+                                                                <div class="top-nft__Sun-Glass">
+                                                                    <div id="timer"></div>
+                                                                    <img src="img/sun-glass.png" alt="">
+                                                                    <p class="title">
+                                                                        Sun-Glass
+                                                                    </p>
+                                                                    <p class="current-bild">
+                                                                        Current bid
+                                                                    </p>
+
+                                                                    <a class="top-nft__nft__link button-black--3"
+                                                                        href="">PLACE BID</a>
+
+                                                                    <div class="text-img__container">
+                                                                        <img src="img/mdi_ethereum.svg" alt="">
+                                                                        <p class="price">
+                                                                            1.75
+                                                                        </p>
+                                                                    </div>
+
+
+                                                                    <div class="top-nft__nft-container">
+                                                                        <div class="top-nft__Sun-Glass">
+                                                                            <div id="timer"></div>
+                                                                            <img src="img/nuevey.png" alt="">
+                                                                            <p class="title">
+                                                                                Sun-Glass
+                                                                            </p>
+                                                                            <p class="current-bild">
+                                                                                Current bid
+                                                                            </p>
+
+                                                                            <a class="top-nft__nft__link button-black--3"
+                                                                                href="">PLACE BID</a>
+
+                                                                            <div class="text-img__container">
+                                                                                <img src="img/mdi_ethereum.svg" alt="">
+                                                                                <p class="price">
+                                                                                    1.75
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <a class="top-colections" href="">Explore All
+                                                                        </a>
+
+
+
+    </section>
+
+    <section class="Collector">
+        <!-- плюсы этой компании -->
+        <div class="title__container">
+            <h4 class="Collector__title">
+                Just Unleash -
+            </h4>
+            <h4 class="Collector__title--2">
+                Your Inner Collector
+            </h4>
+        </div>
+
+        <img class="Collector__img" src="img/Illustration Left.svg" alt="">
+
+        <div class="Conditions-container">
+            <div class="Conditions__galoshka-text">
+                <img src="img/galochka.svg" alt="">
+                <p class="Conditions__text">
+                    Best Seller All Around World
+                </p>
+            </div>
+            <div class="Conditions__galoshka-text">
+                <img src="img/galochka.svg" alt="">
+                <p class="Conditions__text">
+                    $2M+ Transections Every Day
+                </p>
+            </div>
+            <div class="Conditions__galoshka-text">
+                <img src="img/galochka.svg" alt="">
+                <p class="Conditions__text">
+                    Secure Transactions
+                </p>
+            </div>
+            <div class="Conditions__galoshka-text">
+                <img src="img/galochka.svg" alt="">
+                <p class="Conditions__text">
+                    Exclusive Collections From Sellers
+                </p>
+            </div>
+            <div class="Conditions__galoshka-text">
+                <img src="img/galochka.svg" alt="">
+                <p class="Conditions__text">
+                    Easy Buying and Selling
+                </p>
+            </div>
+            <div class="Conditions__galoshka-text">
+                <img src="img/galochka.svg" alt="">
+                <p class="Conditions__text">
+                    Join Our Community
+                </p>
+            </div>
+        </div>
+        <button class="Collector__button" id="openSectionButton"> Explore More <img src="img/streloshka.svg" alt="">
+        </button>
+<!-- 
+      так с низу идут елементы которые при нажатии кнопки должни скрываться и роскрываться
+      типо при нажатии на кнопку должна вылезать во эта часть сайта
+      ⬇
+      ⬇
+      ⬇
+      ⬇ 
+    -->
+
+
+    </section>
+ 
+   <!-- присоединиться до комюнити -->
+
+    <section class="Hidden-Part">
+        <div class="Hidden-Part__title-container">
+            <h4 class="Hidden-Part__title">
+                Join The
+            </h4>
+            <h4 class="Hidden-Part__title--2">
+                Community
+            </h4>
+        </div>
+
+        <p class="Hidden-Part__text">
+            Our vibrant community is full of collectors, artists, and enthusiasts who share a passion for one-of-a-kind
+            digital.
+        </p>
+
+        <a class="Hidden-Part__link button-black--5" href="">Join Our Community</a>
+
+        <!-- тут будет информация про нфт при нажатии + там с низу должна вылезать инфо -->
+
+        <!-- и смотри возможно я допусти ошибку что заделал эту часть как div в section если что просто поменяй div на section -->
+        <div class="info-to-nft">
+            <div class="info-to-nft-container">
+                <h5 class="info-to-nft__title">
+                    Frequently Asked
+                </h5>
+                <h5 class="info-to-nft__title--2">
+                    Questions
+                </h5>
+            </div>
+
+
+            <div class="info-to-nft-container--2">
+                <div class="info-+-text">
+                    <p class="info-to-nft__title--3">
+                        What is an NFT?
+                    </p>
+
+                    <button class="toggleButton button-black--6" onclick="toggleInfo()">+</button>
+                    <div id="nftInfo">
+                        <p class="info-to-nft__text">
+
+                            NFT, or Non-Fungible Token, represents a unique digital asset stored on a blockchain. Unlike
+                            traditional cryptocurrencies, each NFT is distinctive and indivisible, attributed with
+                            specific value and ownership. This characteristic makes NFTs particularly popular in digital
+                            art, gaming, and entertainment, providing creators with a secure and transparent way to
+                            tokenize and sell their digital creations.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="info-+-text">
+                    <p class="info-to-nft__title--3">
+                        What can I use NFTs for?
+                    </p>
+
+                    <button class="toggleButton button-black--6" onclick="toggleInfo()">+</button>
+                    <div id="nftInfo">
+                        <p class="info-to-nft__text">
+                            NFTs, or Non-Fungible Tokens, can be used for various purposes such as tokenizing and
+                            trading digital art, music, and other forms of creative content on blockchain platforms.
+                            They enable artists and creators to establish ownership, authenticity, and scarcity of their
+                            digital works, providing new avenues for monetization and direct interaction with global
+                            audiences. Additionally, NFTs have found applications in gaming, where unique in-game items
+                            and assets can be tokenized, bought, sold, and owned securely on blockchain networks.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="info-+-text">
+                    <p class="info-to-nft__title--3">
+                        What is the difference between an NFT and cryptocurrency?
+                    </p>
+
+                    <button class="toggleButton button-black--6" onclick="toggleInfo()">+</button>
+                    <div id="nftInfo">
+                        <p class="info-to-nft__text">
+                            The main difference between an NFT (Non-Fungible Token) and a cryptocurrency lies in their
+                            inherent characteristics and use cases. While cryptocurrencies like Bitcoin or Ethereum are
+                            fungible and can be exchanged on a one-to-one basis, NFTs are unique and indivisible digital
+                            assets that represent ownership of specific items, often in the realms of art, music, or
+                            gaming. Cryptocurrencies are primarily designed as a medium of exchange and store of value,
+                            whereas NFTs serve to tokenize and represent ownership of distinct digital or physical items
+                            on a blockchain.
+
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="info-+-text">
+                    <p class="info-to-nft__title--3">
+                        How much is an NFT worth?
+                    </p>
+
+                    <button class="toggleButton button-black--6" onclick="toggleInfo()">+</button>
+                    <div id="nftInfo">
+                        <p class="info-to-nft__text">The value of an NFT, or Non-Fungible Token, varies widely and
+                            depends on factors such as the
+                            perceived artistic or cultural value of the associated digital content, the reputation of
+                            the creator, and the demand within the market. Some NFTs have sold for millions of dollars,
+                            especially those created by well-known artists or associated with iconic digital works.
+                            However, the value of NFTs can be subjective and speculative, influenced by trends, buyer
+                            sentiment, and the evolving landscape of the NFT market.</p>
+
+                    </div>
+                </div>
+
+                <div class="info-+-text">
+                    <p class="info-to-nft__title--3">
+                        How do I purchase an NFT on your platform ?
+                    </p>
+
+                    <button class="toggleButton button-black--6" onclick="toggleInfo()">+</button>
+                    <div id="nftInfo">
+                        <p class="info-to-nft__text">
+                            I don't have a specific platform as I am a text-based AI model created by OpenAI. However,
+                            to purchase an NFT on a platform, you typically need to create an account, connect a digital
+                            wallet that supports cryptocurrency transactions, browse through available NFT listings, and
+                            use your digital wallet to make a purchase. Ensure that you follow the platform's
+                            instructions for buying and selling NFTs, and be mindful of transaction fees and guidelines
+                            specific to that platform.
+
+
+
+
+
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- и тут заделай footer -->
+    <script src="bundle.js"></script>
+</body>
+
+</html>
